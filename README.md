@@ -97,6 +97,7 @@ Optionally, you can also include rounded icons:
 ## Contributing
 
 As long as you run the code through Prettier and use tabs instead of spaces, you're good to go. 😄
+Just open a pull request.
 
 ---
 
