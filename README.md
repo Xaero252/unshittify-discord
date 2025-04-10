@@ -1,4 +1,4 @@
-# Unshittify Discord
+# UnShittify Discord
 By [@nak.kiwi](https://instagram.com/nak.kiwi) (You can call me Nakki, feel free visit wy cozy website at nak.kiwi) :3
 
 A personal project to fix the design mistakes and disalignments in the Discord app.
