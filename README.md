@@ -15,9 +15,15 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 ---
 
-## Installation
+## Installation (Vencord/BetterDiscord/Browser)
 
-### Option 1: Online Themes (Auto Update)
+### Option 1: Download Importer (Auto Update)
+
+Download [UnShittify.theme.css](UnShittify.theme.css) or [UnShittifyRounded.theme.css](UnShittifyRounded.theme.css) and add it to your themes folder.
+
+You can also find it on ~~[BetterDiscord](https://betterdiscord.app/theme/TODO)~~ (Waiting for verification)
+
+### Option 2: Online Themes (Auto Update)
 
 Add the following line to your "Online Themes" imports:
 
@@ -31,13 +37,11 @@ And the following for rounded icons:
 @import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
 ```
 
-### Option 2: Download Importer (Auto Update)
+### Option 3 (For Bowsers using UserCSS extensions)
 
-Download [UnShittify.theme.css](UnShittify.theme.css) or [UnShittifyRounded.theme.css](UnShittifyRounded.theme.css) and add it to your themes folder.
+Check out [https://userstyles.world/style/21817](https://userstyles.world/style/21817)
 
-You can also find it on ~~[BetterDiscord](https://betterdiscord.app/theme/TODO)~~ (Waiting for verification)
-
-### Option 3: Download Source (No Automatic Updates)
+### Option 4: Download Source (No Automatic Updates)
 
 Download the raw CSS files:
 
