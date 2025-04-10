@@ -1,0 +1,37 @@
+/**
+ * @name RoundServerIcons
+ * @author Nak.kiwi
+ * @description :3
+ * @version 0.0.1
+ */
+
+/* -----------------  UN-SHITIFY DISCORD (RoundServerIcons Part) ------------------- *//*
+
+By @nak.kiwi (You can call me Nakki, feel free visit wy cozy website at nak.kiwi)
+
+A personal project to fix the blatant design mistakes and disalignments in the Discord app.
+If it's unreadable, it's by design, I didn't want you to steal my secret sauce.
+
+This is a discord unoficcial theme, it is not affiliated with Discord in any way.
+If you are discord and wish for this to be taken down, please message me at hello@nak.kiwi
+
+
+*//* ------------------------------------------------------- */
+
+/* ----------------------- OPTIONS ------------------------- *//*
+
+	See https://github.com/MaiRiosIPla/unshittify-discord/blob/main/README.md
+
+*//* ------------------------------------------------------- */
+
+
+.icon__6e9f8, 
+.closedFolderIconWrapper__48112, 
+.folder__48112, 
+.expandedFolderIconWrapper__48112,
+.wrapper__6e9f8,
+.circleIconButton__5bc7e
+{
+	border-radius: 100% !important;
+	overflow: hidden !important;
+}

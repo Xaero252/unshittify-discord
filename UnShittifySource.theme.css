@@ -1,0 +1,122 @@
+/**
+ * @name UnShittifySource
+ * @author Nak.kiwi
+ * @description Fix the blatant design mistakes and disalignments :D
+ * @version 0.0.1
+ */
+
+/* -----------------  UN-SHITIFY DISCORD ------------------- *//*
+
+By @nak.kiwi (You can call me Nakki, feel free visit wy cozy website at nak.kiwi)
+
+A personal project to fix the blatant design mistakes and disalignments in the Discord app.
+If it's unreadable, it's by design, I didn't want you to steal my secret sauce.
+
+This is a discord unoficcial theme, it is not affiliated with Discord in any way.
+If you are discord and wish for this to be taken down, please message me at hello@nak.kiwi
+
+
+*//* ------------------------------------------------------- */
+
+/* ----------------------- OPTIONS ------------------------- *//*
+
+- CIRCLE ICONS:
+	- See https://github.com/MaiRiosIPla/unshittify-discord/blob/main/README.md
+
+*//* ------------------------------------------------------- */
+
+
+
+.visual-refresh .panels_c48ade {
+	right: var(--space-xs) !important;
+	left: auto;
+	bottom: var(--space-xs);
+	width: calc(100% - var(--space-xs) * 2 - var(--custom-guild-list-width));
+}
+
+.visual-refresh .guilds_c48ade {
+	margin-bottom: 0;
+}
+.visual-refresh .base_c48ade {
+	grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [end];
+}
+
+/* Top bar (hidden) */
+.bar_c38106 {
+	gap: 2px;
+
+	/* margin-left: calc(var(--custom-guild-list-width) + var(--space-8)); */
+	width: max-content;
+
+	z-index: 2000 !important;
+	position: absolute;
+
+	background-color: var(--background-tertiary);
+	border-radius: var(--radius-sm);
+	top: 6px;
+	right: var(--space-xs);
+	left: unset;
+	padding: 0;
+	overflow: hidden;
+}
+.bar_c38106::before {
+	content: "";
+	mask-image: url(https://1y5jxd9sss.ufs.sh/f/8JQcvMcXxzFvCOxxpEmmsZtLc5uIiWBDAV12TqGCdMjz3EbS);
+
+	mask-size: 1.4rem;
+	mask-repeat: no-repeat;
+	mask-position: center;
+	background-color: var(--icon-tertiary);
+
+	/* color: var(--icon-tertiary); */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: var(--custom-app-top-bar-height);
+	height: var(--custom-app-top-bar-height);
+	cursor: pointer;
+
+	pointer-events: none;
+}
+
+/* Hide bar title */
+.title__85643,
+.title_c38106 {
+	display: none !important;
+}
+.container__9293f {
+	padding-right: 270px !important;
+	overflow: hidden !important;
+}
+
+
+/* Align discord logo and left bar */
+.tree_ef3116 {
+	margin-top: 1rem;
+}
+
+/* Chat input bar */
+.channelTextArea_f75fb0 {
+	margin-bottom: var(--space-xs);
+	--custom-channel-textarea-text-area-max-height: 56px;
+	--custom-channel-textarea-text-area-height: var(
+		--custom-channel-textarea-text-area-max-height
+	);
+
+}
+
+/* bad fix for search bar */
+.search__49676 * {
+	display: flex !important;
+	flex-shrink: 1 !important;
+}
+.searchBar__97492 {
+	width: auto !important;
+	min-width: 100px !important;
+}
+
+
+/* HIDE USERNAMES (FOR DEV SNAPSHOTS) */
+/* .username__0a06e, .overflow__82b15 {
+	filter: blur(3px);
+} */
