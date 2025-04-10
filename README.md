@@ -1,6 +1,11 @@
 # Unshittify Discord
+By [@nak.kiwi](https://instagram.com/nak.kiwi) (You can call me Nakki, feel free visit wy cozy website at nak.kiwi) :3
 
-A CSS Discord theme that keeps the modern design while fixing most of its mistakes.
+A personal project to fix the design mistakes and disalignments in the Discord app.
+If it's unreadable, it's by design, I didn't want you to steal my secret sauce.
+
+**Disclaimer:** This is a discord unoficcial theme, it is not affiliated with Discord in any way.
+If you are discord and wish for this to be taken down, please message me at hello@nak.kiwi
 
 - [Installation](#installation)
 - [Use to Create Other Themes](#use-to-create-other-themes)
