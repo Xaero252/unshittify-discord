@@ -96,13 +96,14 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* Chat input bar */
-.channelTextArea_f75fb0 {
+.channelTextArea_f75fb0   {
 	margin-bottom: var(--space-xs);
-	--custom-channel-textarea-text-area-max-height: 56px;
-	--custom-channel-textarea-text-area-height: var(
-		--custom-channel-textarea-text-area-max-height
-	);
-
+	.inner__74017 {
+		--custom-channel-textarea-text-area-max-height: 56px;
+		--custom-channel-textarea-text-area-height: var(
+			--custom-channel-textarea-text-area-max-height
+		);
+	}
 }
 
 /* bad fix for search bar */
