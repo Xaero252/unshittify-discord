@@ -25,7 +25,10 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 *//* ------------------------------------------------------- */
 
-
+/* If using source, you may change the following variables */
+:root {
+	--us-server-scale: 1.2;
+}
 
 .visual-refresh .panels_c48ade {
 	right: var(--space-xs) !important;
@@ -93,6 +96,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 /* Align discord logo and left bar */
 .tree_ef3116 {
 	margin-top: 1rem;
+	overflow: visible !important;
 }
 
 /* Chat input bar */
@@ -106,7 +110,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 	}
 }
 
-/* bad fix for search bar */
+/* Fix for search bar */
 .search__49676 > div {
 	display: flex !important;
 	flex-shrink: 1 !important;
@@ -117,6 +121,10 @@ If you are discord and wish for this to be taken down, please message me at hell
 	min-width: 100px !important;
 }
 
+/* Fix for user modal rescaling */
+.button__201d5 {
+	padding: unset !important;
+}
 
 /* HIDE USERNAMES (FOR DEV SNAPSHOTS) */
 /* .username__0a06e, .overflow__82b15 {
