@@ -107,10 +107,11 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* bad fix for search bar */
-.search__49676 * {
+.search__49676 > div {
 	display: flex !important;
 	flex-shrink: 1 !important;
 }
+
 .searchBar__97492 {
 	width: auto !important;
 	min-width: 100px !important;
