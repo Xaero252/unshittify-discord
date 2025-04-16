@@ -24,12 +24,6 @@ If you are discord and wish for this to be taken down, please message me at hell
 	- See https://github.com/MaiRiosIPla/unshittify-discord/blob/main/README.md
 
 *//* ------------------------------------------------------- */
-
-/* If using source, you may change the following variables */
-:root {
-	--us-server-scale: 1.2;
-}
-
 .visual-refresh .panels_c48ade {
 	right: var(--space-xs) !important;
 	left: auto;
@@ -96,7 +90,6 @@ If you are discord and wish for this to be taken down, please message me at hell
 /* Align discord logo and left bar */
 .tree_ef3116 {
 	margin-top: 1rem;
-	overflow: visible !important;
 }
 
 /* Chat input bar */
@@ -122,7 +115,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* Fix for user modal rescaling */
-.button__201d5 {
+.actionButtons_e131a9 .button__201d5 {
 	padding: unset !important;
 }
 
