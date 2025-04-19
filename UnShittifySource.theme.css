@@ -24,22 +24,24 @@ If you are discord and wish for this to be taken down, please message me at hell
 	- See https://github.com/MaiRiosIPla/unshittify-discord/blob/main/README.md
 
 *//* ------------------------------------------------------- */
+
+/* User modal */
 .visual-refresh .panels_c48ade {
 	right: var(--space-xs) !important;
 	left: auto;
 	bottom: var(--space-xs);
 	width: calc(100% - var(--space-xs) * 2 - var(--custom-guild-list-width));
+	z-index: 200 !important;
 }
 
-.visual-refresh .guilds_c48ade {
-	margin-bottom: 0;
-}
+/* Remove top row*/
 .visual-refresh .base_c48ade {
 	grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [end];
 }
 
-/* Top bar (hidden) */
-.bar_c38106 {
+
+/* Top bar and dragging functionality */
+.trailing_c38106 {
 	gap: 2px;
 
 	/* margin-left: calc(var(--custom-guild-list-width) + var(--space-8)); */
@@ -58,22 +60,18 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 .bar_c38106::before {
 	content: "";
-	mask-image: url(https://1y5jxd9sss.ufs.sh/f/8JQcvMcXxzFvCOxxpEmmsZtLc5uIiWBDAV12TqGCdMjz3EbS);
-
-	mask-size: 1.4rem;
-	mask-repeat: no-repeat;
-	mask-position: center;
-	background-color: var(--icon-tertiary);
-
-	/* color: var(--icon-tertiary); */
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: var(--custom-app-top-bar-height);
-	height: var(--custom-app-top-bar-height);
-	cursor: pointer;
-
-	pointer-events: none;
+	position: fixed;
+	top:0;
+	right:0;
+	left: var(--custom-guild-sidebar-width);
+	height: 10px;
+	width: 200%;
+	z-index: -1 !important;
+}
+.bar_c38106 {
+	margin-left: var(--custom-guild-sidebar-width);
+	height: 15px;
+	min-height: unset !important;
 }
 
 /* Hide bar title */
@@ -81,8 +79,10 @@ If you are discord and wish for this to be taken down, please message me at hell
 .title_c38106 {
 	display: none !important;
 }
+
+/* Make top icons not overlap bar icons*/
 .container__9293f {
-	padding-right: 270px !important;
+	padding-right: 220px !important;
 	overflow: hidden !important;
 }
 
@@ -108,7 +108,6 @@ If you are discord and wish for this to be taken down, please message me at hell
 	display: flex !important;
 	flex-shrink: 1 !important;
 }
-
 .searchBar__97492 {
 	width: auto !important;
 	min-width: 100px !important;
@@ -119,7 +118,20 @@ If you are discord and wish for this to be taken down, please message me at hell
 	padding: unset !important;
 }
 
+/* Fix for server bar overflowing */
+.itemsContainer_ef3116, .tree_ef3116 {
+	height: calc(100% - 1rem);
+}
+.visual-refresh .guilds_c48ade {
+	margin-bottom: 0;
+}
+
 /* HIDE USERNAMES (FOR DEV SNAPSHOTS) */
 /* .username__0a06e, .overflow__82b15 {
 	filter: blur(3px);
+} */
+
+/* Transitions for dev test */
+/* * {
+	transition: all 2s ease-in-out !important;
 } */
