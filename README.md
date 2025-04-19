@@ -41,6 +41,9 @@ And the following for rounded icons:
 @import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
 ```
 
+> [!NOTE]  
+> You'll need both themes for rounded icons.
+
 ### Option 3 (For Bowsers using UserCSS extensions)
 
 Check out [https://userstyles.world/style/21817](https://userstyles.world/style/21817)
