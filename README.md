@@ -23,6 +23,8 @@ Download [UnShittify.theme.css](UnShittify.theme.css) or [UnShittifyRounded.them
 
 You can also find it on ~~[BetterDiscord](https://betterdiscord.app/theme/TODO)~~ (Waiting for verification)
 
+> You won't need both themes for rounded icons.
+
 ### Option 2: Online Themes (Auto Update)
 
 Add the following line to your "Online Themes" imports:
@@ -50,6 +52,9 @@ Download the raw CSS files:
 
 And place them in your themes folder.
 
+> [!NOTE]  
+> You'll need both themes for rounded icons.
+
 ---
 
 ## Use to Create Other Themes
@@ -65,14 +70,17 @@ Optionally, you can also include rounded icons:
 ```css
 @import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
 ```
+> [!NOTE]  
+> You'll need both themes for rounded icons.
 
 ---
 
 ## Features
 
-- Removed top bar and left it floating. A drag icon was added so the window can still be moved.
+- Removed top bar and left it floating. The window can still be moved by nearing the mouse to the top of the window.
 
-  ![Floating top bar](https://github.com/user-attachments/assets/f4c1a894-f3a5-4aab-979f-4332281d2d0c)
+  ![image](https://github.com/user-attachments/assets/56cdf602-d1b7-48d6-9684-807799b73af4)
+
 
 - Adapted profile container to fit neatly under the rest of the users.
 
