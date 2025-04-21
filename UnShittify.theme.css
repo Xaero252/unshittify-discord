@@ -27,3 +27,17 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 @import url('https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css');
 @import url('https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css');
+
+/* SETTINGS */
+:root {
+	/* Right padding of the top bar */
+	--top-bar-padding: 220px;
+	/* Icon scale */
+	--icon-scale: 1;
+
+	/* NSPG911 Refreshed Seamless Chat Bar */
+	/* Custom padding for the chat box */
+	--rscb-chat-box-padding: 8px;
+	/* Whether you want the chat to not move up and down when someone starts typing */
+	--rscb-no-jump-chat: 0;
+}

@@ -25,6 +25,25 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 *//* ------------------------------------------------------- */
 
+/* Imports */
+/* Refreshed Seamless Chat Bar by NSPG911 */
+@import url("https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css");
+
+/* SETTINGS */
+:root {
+	/* Right padding of the top bar */
+	--top-bar-padding: 220px;
+	/* Icon scale */
+	--icon-scale: 1;
+
+	/* NSPG911 Refreshed Seamless Chat Bar */
+	/* Custom padding for the chat box */
+	--rscb-chat-box-padding: 8px;
+	/* Whether you want the chat to not move up and down when someone starts typing */
+	--rscb-no-jump-chat: 0;
+}
+/* 
+
 /* User modal */
 .visual-refresh .panels_c48ade {
 	right: var(--space-xs) !important;
@@ -81,8 +100,8 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* Make top icons not overlap bar icons*/
-.container__9293f {
-	padding-right: 220px !important;
+.visual-refresh .title_f75fb0 {
+	padding-right: var(--top-bar-padding);
 	overflow: hidden !important;
 }
 
@@ -124,6 +143,43 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 .visual-refresh .guilds_c48ade {
 	margin-bottom: 0;
+}
+/* _____ Server icons scale _____________________________________________________*/
+
+/* FOLDER SCALING */
+.wrapper__48112 {
+	--guildbar-folder-size: calc(48px / var(--icon-scale));
+	--custom-guild-list-width: calc((var(--guildbar-avatar-size) + var(--custom-guild-list-padding)*2)/var(--icon-scale));
+	zoom: var(--icon-scale);
+}
+/* Open folder Icon */
+.folder__48112, .folderIconWrapper__48112 {
+    height: calc(var(--guildbar-folder-size) * var(--icon-scale));
+    width: calc(var(--guildbar-folder-size) * var(--icon-scale));
+}
+/* Folder BG */
+.visual-refresh .expandedFolderBackground__48112 {
+    left: calc(var(--custom-guild-list-padding)/var(--icon-scale) - (var(--guildbar-folder-size)* var(--icon-scale) - var(--guildbar-avatar-size)/var(--icon-scale))/2);
+	width: calc(var(--guildbar-folder-size) * var(--icon-scale));
+}
+/* Closed folders inner preview*/
+.visual-refresh .closedFolderIconWrapper__48112 {
+	zoom: var(--icon-scale);
+}
+/* DC logo */
+.tutorialContainer__1f388 > .listItem__650eb > .listItemWrapper__91816, .tutorialContainer__650eb > .listItem__650eb > .listItemWrapper__91816 {
+	zoom: var(--icon-scale);
+}
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > nav > ul > div.itemsContainer_ef3116 > div > div:nth-child(5) > div.listItemWrapper__91816 > div {
+	zoom: var(--icon-scale);
+}
+
+/* SERVER SCALING */
+.stack_dbd263[aria-label="Servers"] > .listItem__650eb > div:nth-child(2) .wrapper_cc5dd2 {
+	zoom: var(--icon-scale);
+}
+.visual-refresh .listItem__650eb .wrapper_cc5dd2:not(.wrapper__48112) {
+
 }
 
 /* HIDE USERNAMES (FOR DEV SNAPSHOTS) */
