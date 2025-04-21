@@ -13,6 +13,8 @@ If you are discord and wish for this to be taken down, please message me at hell
 - [Known Issues](#known-issues)
 - [License](#license)
 
+![image](https://github.com/user-attachments/assets/f47c80f4-8a5f-468d-9c43-3c41c501dd79)
+
 ---
 
 ## Installation (Vencord/BetterDiscord/Browser)
@@ -39,8 +41,10 @@ And the following for rounded icons:
 @import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
 ```
 
+> [!NOTE]  
+> You'll need both themes for rounded icons.
 
-### Option 3 (For Bowsers using UserCSS extensions (BROKEN))
+### Option 3 (For Bowsers using UserCSS extensions)
 
 Check out [https://userstyles.world/style/21817](https://userstyles.world/style/21817)
 
