@@ -42,7 +42,6 @@ If you are discord and wish for this to be taken down, please message me at hell
 	/* Whether you want the chat to not move up and down when someone starts typing */
 	--rscb-no-jump-chat: 0;
 }
-/* 
 
 /* User modal */
 .visual-refresh .panels_c48ade {
@@ -100,8 +99,8 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* Make top icons not overlap bar icons*/
-.visual-refresh .title_f75fb0 {
-	padding-right: var(--top-bar-padding);
+.container__9293f {
+	padding-right: var(--top-bar-padding) !important;
 	overflow: hidden !important;
 }
 
